@@ -1,0 +1,118 @@
+=head1 NAME
+
+IdentityFunction - Tags like identity function.
+
+=head1 SYNOPSIS
+
+  <mt:val value="1" />
+  <mt:val value="a" upper_case="1" />
+
+  <mt:valblock>1</mt:valblock>
+  <mt:valblock decode_html="1"><p>paragraph here.</p></mt:valblock>
+
+=head1 DESCRIPTION
+
+IdentityFunction is a Movable Type plugin that give a function tag and a block tag like identity function.
+
+You can simply use global modifiers than ever.
+
+=head1 INSTALL
+
+=over 4
+
+=item 1. Download it here L<https://github.com/taiju/mt-plugin-identity-function/zipball/master>.
+
+=item 2. Unpack it.
+
+=item 3. Copy mt-plugin-identity-function/plugins/IdentityFunction/ to your {MT_HOME}/plugins/IdentityFunction.
+
+=back
+
+=head1 TAGS
+
+=head2 Val
+
+A function tag used to return value as it is. 
+
+It can use any global modifiers.
+
+B<Attributes:>
+
+=over 4
+
+=item * value
+
+The value to set the return value.
+
+If set any global modifiers, it return value that applied modifiers.
+
+=back
+
+B<Example: without global modifiers>
+
+  <mt:Val value="1" />
+
+Produces:
+
+  1
+
+B<Example: with global modifiers>
+
+  <mt:Val value="a" upper_case="1" />
+
+Produces:
+
+  A
+
+=head2 ValBlock
+
+A block tag used to return value as it is. 
+
+It can use any global modifiers.
+
+B<Example: without global modifiers>
+
+  <mt:ValBlock>1</mt:ValBlock>
+
+Produces:
+
+  1
+
+B<Example: with global modifiers>
+
+  <mt:ValBlock decode_html="1"><p>Hello!!</p></mt:ValBlock>
+
+Produces:
+
+  &lt;p&gt;Hello!!&lt;/g&gt;
+
+=head1 SEE ALSO
+
+MTVal DEMO L<http://higashizm.sakura.ne.jp/mt/html/val.html>
+
+MTValBlock DEMO L<http://higashizm.sakura.ne.jp/mt/html/valblock.html>
+
+Identity function L<http://en.wikipedia.org/wiki/Identity_function>
+
+=head1 AUTHOR
+
+HIGASHI Taiju E<lt>higashi@taiju.infoE<gt>
+
+=head1 LICENSE
+
+Copyright (C) 2012  HIGASHI Taiju
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+=cut

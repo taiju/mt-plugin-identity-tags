@@ -1,0 +1,12 @@
+[
+{ "r" : "1", "t" : "", "e" : "" },
+{ "r" : "1", "t" : "<MTVal>", "e" : "" },
+{ "r" : "1", "t" : "<MTVal value=\"1\">", "e" : "1" },
+{ "r" : "1", "t" : "<MTVal value=\"a\">", "e" : "a" },
+{ "r" : "1", "t" : "<MTVal value=\"a\" capitalize=\"1\">", "e" : "A" },
+{ "r" : "1", "t" : "<MTValBlock></MTValBlock>", "e" : "" },
+{ "r" : "1", "t" : "<MTValBlock>1</MTValBlock>", "e" : "1" },
+{ "r" : "1", "t" : "<MTValBlock>a</MTValBlock>", "e" : "a" },
+{ "r" : "1", "t" : "<MTValBlock><MTSetVar name=\"v\" value=\"1\" /><MTGetVar name=\"v\" /></MTValBlock>", "e" : "1" },
+{ "r" : "1", "t" : "<MTValBlock encode_html=\"1\"><p>Hi!</p></MTValBlock>", "e" : "&lt;p&gt;Hi!&lt;/p&gt;" }
+]

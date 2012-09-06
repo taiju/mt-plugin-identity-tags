@@ -1,0 +1,14 @@
+id: IdentityFunction
+key: IdentityFunction
+name: IdentityFunction
+version: 1.0
+description: IdentityFunction has a function tag and a block tag like identity function.
+author_name: HIGASHI Taiju
+author_link: http://taiju.hatenablog.com/
+doc_link: http://github.com/taiju/mt-plugin-identity-function
+
+tags:
+    function:
+        Val: $IdentityFunction::IdentityFunction::Tags::_hdlr_val
+    block:
+        ValBlock: $IdentityFunction::IdentityFunction::Tags::_hdlr_valblock
