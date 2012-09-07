@@ -27,7 +27,7 @@ my $request = MT::Request->instance;
 $request->{__stash} = {};
 
 local $/ = undef;
-open F, "<plugins/IdentityFunction/t/01-tags.dat";
+open F, "<plugins/IdentityTags/t/01-tags.dat";
 my $test_json = <F>;
 close F;
 
@@ -195,7 +195,7 @@ function run(&$ctx, $suite) {
 }
 
 function load_tests() {
-    $suite = cleanup(file_get_contents('plugins/IdentityFunction/t/01-tags.dat'));
+    $suite = cleanup(file_get_contents('plugins/IdentityTags/t/01-tags.dat'));
     $json = new JSON();
     global $const;
     foreach ($const as $c => $r) {

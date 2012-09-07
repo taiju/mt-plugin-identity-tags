@@ -1,6 +1,6 @@
 =head1 NAME
 
-IdentityFunction - Tags like identity function.
+IdentityTags - Tags like identity function.
 
 =head1 SYNOPSIS
 
@@ -12,7 +12,7 @@ IdentityFunction - Tags like identity function.
 
 =head1 DESCRIPTION
 
-IdentityFunction is a Movable Type plugin that give a function tag and a block tag like identity function.
+IdentityTags is a Movable Type plugin that give a function tag and a block tag like identity function.
 
 You can simply use global modifiers than ever.
 
@@ -20,11 +20,11 @@ You can simply use global modifiers than ever.
 
 =over 4
 
-=item 1. Download it here L<https://github.com/taiju/mt-plugin-identity-function/zipball/master>.
+=item 1. Download it here L<https://github.com/taiju/mt-plugin-identity-tags/zipball/master>.
 
 =item 2. Unpack it.
 
-=item 3. Copy mt-plugin-identity-function/plugins/IdentityFunction/ to your {MT_HOME}/plugins/IdentityFunction.
+=item 3. Copy mt-plugin-identity-tags/plugins/IdentityTags/ to your {MT_HOME}/plugins/IdentityTags.
 
 =back
 

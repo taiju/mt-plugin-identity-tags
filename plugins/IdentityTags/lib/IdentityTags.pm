@@ -1,4 +1,4 @@
-package IdentityFunction::Tags;
+package IdentityTags;
 use strict;
 
 sub _hdlr_val {
